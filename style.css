@@ -1,0 +1,173 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: .bg-light-subtle;
+}
+
+.section-padding {
+    padding: 60px 0;
+}
+
+.carousel-item{
+    height: 80vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom: 200px;
+    z-index: 2;
+}
+
+.carousel-caption{
+    font-size: 45px;   
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+.carousel-inner::before{
+    content: ;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background:rgba(0, 30, 82, 0.327);
+    z-index: 1;
+}
+
+.nav-nav{
+    font-size: 15px;   
+    font-weight: 500;
+}
+
+.navbar-dark .navbar-brand{
+   color: #fff; 
+   font-size: 15px;
+   font-weight: helvetica;
+   letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover{
+    color: #6a6a6a;
+}
+
+.w-100 {
+    height: 90vh;
+}
+
+.navbar-toggler { 
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    max-width: 1000px;    
+}
+.card {
+    width: 100%;    
+    margin: 20px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);    
+
+}
+.card img {
+    width: 100%;
+    height: 280px;
+    width: 300px;
+}
+.card .contenido {
+    padding: 15px;
+    text-align: left;
+}
+.card .contenido p {
+    line-height: 1.5;
+    color: #6a6a6a;
+}
+.card .contenido h3 {
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.card .contenido button {
+    padding: 10px 5px 0 0;
+    margin-top: 15px;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+.caja1 {
+    width: 50%;
+    height: 500px;
+    float: left;
+    margin: bet;
+}
+.caja2 {
+    background-color: black;
+    width: 50%;
+    height: 500px;    
+    float: left;
+
+}
+
+.container-form{    
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 90px;
+}
+.container-form h6{
+    margin-bottom: 15px;
+    font-size: 10px;
+}
+.container-form p{
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+.container-form .campo{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+.container-form form textarea{
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+}
+.container-form .btn-enviar{
+    padding: 15px;
+    margin: 0 0 100px 0;
+    font-size: 17px;
+    width: 530px;
+    border: none;
+    outline: 0px;
+    background: greenyellow;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.contenedor{
+    text-align: center;
+}
